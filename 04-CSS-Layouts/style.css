@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   /* instead if we want the margin to be applied to every single element .
   then for that we can use the universal selector */
   /* we say that the universal selector has a specificity of zero */
@@ -54,10 +55,8 @@ aside {
   background-color: #f7f7f7;
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
-  /* padding-top: 50px;
-  padding-bottom: 50px; */
-  padding: 50px 0;
-  width: 500px;
+  padding: 50px 40px;
+  box-sizing: border-box;
 }
 h1 {
   font-size: 25px;
@@ -160,6 +159,7 @@ button {
 }
 .related {
   list-style: none;
+  margin-left: 0;
 }
 
 li:first-child {
